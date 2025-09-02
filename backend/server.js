@@ -81,8 +81,7 @@ class TodoServer {
         });
 
         server.listen(PORT, () => {
-            console.log(`Todo server running on http://localhost:${PORT}`);
-            console.log(`Frontend available at http://localhost:${PORT}`);
+            console.log(`Todo待办事项app已启动：http://localhost:${PORT}`);
         });
     }
 

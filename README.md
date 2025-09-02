@@ -32,7 +32,7 @@ node server.js
 
 ### 2. 访问前端
 
-直接用浏览器打开 `frontend/index.html` 即可。
+启动后端服务后，直接用浏览器打开 `http://localhost:3000/index.html` 即可。
 
 ## 功能说明
 
@@ -41,10 +41,10 @@ node server.js
 
 ## 技术栈
 
-- 后端：Node.js (Express)
-- 前端：HTML、CSS、JavaScript
+- 后端：原生Node.js，无依赖
+- 数据库：JSON文件存储。
+- 前端：原生HTML、CSS、JavaScript
 
 ## 交流与反馈
 
 如有问题或建议，请提交 issue。
-
